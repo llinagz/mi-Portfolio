@@ -15,49 +15,43 @@ const Hero = () => (
       }
       description={
         <>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus{' '}
+          Desarrollador Junior especializándose en el stack PERNN y siempre{' '}
           <a className="text-cyan-400 hover:underline" href="/">
-            malesuada
+            con ganas
           </a>{' '}
-          nisi tellus, non imperdiet nisi tempor at. Lorem ipsum dolor sit amet,{' '}
+          de mejorar y estar actualizado en el sector.{' '}
           <a className="text-cyan-400 hover:underline" href="/">
-            consectetur
-          </a>{' '}
-          adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+            Eterno aprendiz
+          </a>{', '}
+          sino se algo haré todo lo posible por aprender y mejorar. Busco crear una aplicación que ayude a las personas.
         </>
       }
       avatar={
         <img
           className="h-80 w-64"
-          src="/assets/images/avatar.svg"
+          src="assets\images\avatar.svg"
           alt="Avatar image"
           loading="lazy"
         />
       }
       socialButtons={
         <>
-          <a href="/">
+          <a href="https://twitter.com/llina_gz">
             <HeroSocial
               src="/assets/images/twitter-icon.png"
               alt="Twitter icon"
             />
           </a>
-          <a href="/">
-            <HeroSocial
-              src="/assets/images/facebook-icon.png"
-              alt="Facebook icon"
-            />
-          </a>
-          <a href="/">
+          <a href="https://www.linkedin.com/in/javierllinaresbarral/">
             <HeroSocial
               src="/assets/images/linkedin-icon.png"
               alt="Linkedin icon"
             />
           </a>
-          <a href="/">
+          <a href="https://github.com/llinagz">
             <HeroSocial
-              src="/assets/images/youtube-icon.png"
-              alt="Youtube icon"
+              src="/src/images/github-icon.png"
+              alt="Github icon"
             />
           </a>
         </>
