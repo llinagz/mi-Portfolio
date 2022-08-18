@@ -10,17 +10,17 @@ const Hero = () => (
     <HeroAvatar
       title={
         <>
-          Buenas a todos, soy <GradientText>Javi Llinares</GradientText> 👋
+          Buenas a todos, soy <span className='text-green-400'>Javi Llinares</span> 👋
         </>
       }
       description={
         <>
-          Desarrollador Junior especializándose en el stack PERNN y siempre{' '}
-          <a className="text-cyan-400 hover:underline" href="/">
+          Desarrollador Junior Full Stack en el stack PERNN y siempre{' '}
+          <a className="text-green-400 hover:underline" href="/">
             con ganas
           </a>{' '}
           de mejorar y estar actualizado en el sector.{' '}
-          <a className="text-cyan-400 hover:underline" href="/">
+          <a className="text-green-400 hover:underline" href="/">
             Eterno aprendiz
           </a>{', '}
           sino se algo haré todo lo posible por aprender y mejorar. Busco crear una aplicación que ayude a las personas.
@@ -28,8 +28,8 @@ const Hero = () => (
       }
       avatar={
         <img
-          className="h-80 w-64"
-          src="assets\images\avatar.svg"
+          className="h-70 w-64 rounded-full"
+          src="assets\images\profile-icon.jpg"
           alt="Avatar image"
           loading="lazy"
         />

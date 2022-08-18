@@ -10,7 +10,7 @@ const ProjectList = () => (
   <Section
     title={
       <>
-        Proyectos <GradientText>Recientes</GradientText>
+        Proyectos <span className='text-green-400'>Recientes</span>
       </>
     }
   >
